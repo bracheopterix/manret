@@ -1,0 +1,18 @@
+@font-face {
+    font-family: "Kelly-Slab";
+    src: 
+        url("./KellySlab-Regular.woff2") format("woff2");
+   }
+
+@font-face {
+    font-family: "PT-Mono";
+    src: url("./PTMono-Regular.woff2") format("woff2");
+   }   
+
+h1 {
+    font-family: "Kelly-Slab";
+    font-weight: 300;
+}
+body {
+    font-family: "PT-Mono";
+}
