@@ -2,15 +2,53 @@
 <html lang="ru">
 
 <head>
-    <link rel="stylesheet" href="./style/style.css" >
+    <link id="themeLink" rel="stylesheet" href="./style/style.css">
 </head>
 
-<body>
+<body class="page color">
     <header>
+        <div class="header-ribbon"><button class="color-themes-switch">Тема</button></div>
     </header>
-    <main>
+    <main class="list">
+        <div class="middle-ribbon">
+            <section class="float-box">
+                <!-- Секундомер -->
+                <h1 class="timer"><time>00:00:00</time></h1>
+                <button id="strt">start</button>
+                <button id="stp">stop</button>
+                <button id="rst">reset</button>
+
+
+                <span id="counter"></span>
+
+                <!-- Блок с элементами -->
+                <h2>Элементы</h2>
+                <dl>
+                    <span class="float">
+                    <dt>Ферсет</dt>
+                    <dd>тырыпыры</dd>
+                    <dd><button>Купить</button></dd>
+                </span>
+                    <span class="float">
+                    <dt>Ферсет</dt>
+                    <dd>тырыпыры</dd>
+                    <dd><button>Купить</button></dd>
+                </span>
+                    <span class="float">
+                    <dt>Ферсет</dt>
+                    <dd>тырыпыры</dd>
+                    <dd><button>Купить</button></dd>
+                </span>
+                    <p>
+                        Теория заблуждений заключается в том, что мы выбираем во что верить в зависимости от своих предпочтений.
+                    </p>
+                </dl>
+            </section>
+        </div>
     </main>
     <footer></footer>
+    <script src="./scripts/themes-toggle.js"></script>
+    <script src="./scripts/timer.js"></script>
 </body>
 
 </html>

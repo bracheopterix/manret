@@ -1,18 +1,133 @@
 @font-face {
     font-family: "Kelly-Slab";
-    src: 
-        url("./KellySlab-Regular.woff2") format("woff2");
-   }
+    src: url("./KellySlab-Regular.woff2") format("woff2");
+}
 
 @font-face {
     font-family: "PT-Mono";
     src: url("./PTMono-Regular.woff2") format("woff2");
-   }   
+}
 
 h1 {
     font-family: "Kelly-Slab";
     font-weight: 300;
+    color: #66002C;
+    margin: 0;
+    padding: 0;
 }
-body {
+
+.timer {
+    padding-top: 50px;
+    font-size: 50px;
+}
+
+
+/* fitting */
+
+.header-ribbon {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    height: 50px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.171);
+}
+
+.list {
+    margin-top: 10%;
+}
+
+.middle-ribbon {
+    width: 100%;
+    margin-left: 0;
+    background: rgba(255, 255, 255, 0.336);
+    min-height: fit-content;
+}
+
+.float-box {
+    background-color: #ffffff;
+    height: 10%;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -10px;
+    overflow: auto;
+    text-align: center;
+}
+
+.float {
+    float: left;
+    width: 300px;
+    overflow: auto;
+    min-height: fit-content;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+    align-content: center;
+}
+
+dd,
+dt {
+    text-align: center;
+    margin: auto;
+}
+
+dd button {
+    margin-top: 10px;
+}
+
+h2 {
+    text-align: center;
+}
+
+
+/* red */
+
+body.color {
     font-family: "PT-Mono";
+    background-color: #87989a;
+}
+
+.color-themes-switch.color {
+    position: absolute;
+}
+
+button {
+    right: 20px;
+    top: 10px;
+    border-color: #291514;
+    border-style: solid;
+    background-color: #a1855b;
+    color: white;
+    width: 100px;
+}
+
+button:hover {
+    background-color: tomato;
+}
+
+
+/* Black and white */
+
+body.bw {
+    font-family: "PT-Mono";
+    background-color: rgb(34, 33, 33);
+    color: black;
+}
+
+.color-themes-switch {
+    position: absolute;
+    background-color: #661515;
+}
+
+.col {
+    color: #291514;
+    color: #809848;
+    color: #EDF3E2;
+    color: #66002C;
+    color: #00030c;
+    color: #022e3a;
+    color: #87989a;
+    color: #ffd6a2;
+    color: #a1855b;
 }
