@@ -66,6 +66,13 @@ h1 {
     align-content: center;
 }
 
+
+
+.container {
+    width: 800px;
+    padding: 50px;
+}
+
 dd,
 dt {
     text-align: center;
@@ -79,6 +86,11 @@ dd button {
 h2 {
     text-align: center;
 }
+
+
+
+
+
 
 
 /* red */
