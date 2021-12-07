@@ -104,6 +104,10 @@ button {
 
 button:hover {
     background-color: tomato;
+    transition-property: opacity;
+    transition-duration: 1s;
+    transition-delay: 0s;
+    opacity: 0%;
 }
 
 
@@ -131,3 +135,5 @@ body.bw {
     color: #ffd6a2;
     color: #a1855b;
 }
+
+.block {}
