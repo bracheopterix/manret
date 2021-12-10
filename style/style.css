@@ -1,3 +1,5 @@
+/* Fonts */
+
 @font-face {
     font-family: "Kelly-Slab";
     src: url("./KellySlab-Regular.woff2") format("woff2");
@@ -8,6 +10,9 @@
     src: url("./PTMono-Regular.woff2") format("woff2");
 }
 
+
+/* main page boxes */
+
 h1 {
     font-family: "Kelly-Slab";
     font-weight: 300;
@@ -15,14 +20,6 @@ h1 {
     margin: 0;
     padding: 0;
 }
-
-.timer {
-    padding-top: 50px;
-    font-size: 50px;
-}
-
-
-/* fitting */
 
 .header-ribbon {
     position: fixed;
@@ -55,7 +52,7 @@ h1 {
     text-align: center;
 }
 
-.float {
+.float-element {
     float: left;
     width: 300px;
     overflow: auto;
@@ -89,20 +86,7 @@ h2 {
 
 
 
-
-
-
-
-/* red */
-
-body.color {
-    font-family: "PT-Mono";
-    background-color: #87989a;
-}
-
-.color-themes-switch.color {
-    position: absolute;
-}
+/* Buttons */
 
 button {
     right: 20px;
@@ -114,6 +98,24 @@ button {
     width: 100px;
 }
 
+.color-themes-switch {
+    position: absolute;
+    background-color: #661515;
+}
+
+/* theme color */
+
+body.color {
+    font-family: "PT-Mono";
+    background-color: #87989a;
+}
+
+.color-themes-switch.color {
+    position: absolute;
+}
+
+
+
 button:hover {
     background-color: tomato;
     transition-property: opacity;
@@ -123,7 +125,7 @@ button:hover {
 }
 
 
-/* Black and white */
+/* theme black */
 
 body.bw {
     font-family: "PT-Mono";
@@ -131,10 +133,36 @@ body.bw {
     color: black;
 }
 
-.color-themes-switch {
-    position: absolute;
-    background-color: #661515;
+
+/* Timer */
+
+.timer {
+    padding-top: 50px;
+    font-size: 50px;
 }
+
+/* lottery */
+
+.lottery-history {
+    /* height: fit-content; */
+}
+
+.lottery-history dt {
+    float:left;
+    clear:left;
+    margin: 10px 100px;
+    /*верх, право, низ, лево */
+    
+}
+
+.lottery-history dd {
+    color:brown;
+    float:right;
+    /* margin: 10px 100px ; */
+    /* верх-низ, право-лево */
+}
+
+/* Colors */
 
 .col {
     color: #291514;
@@ -148,4 +176,3 @@ body.bw {
     color: #a1855b;
 }
 
-.block {}
