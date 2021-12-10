@@ -1,6 +1,5 @@
 let page = document.querySelector('.page');
 let themeSwitch = document.getElementsByClassName('color-themes-switch')[0];
-console.log(themeSwitch);
 
 themeSwitch.onclick = function() {
     page.classList.toggle('color');
