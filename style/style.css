@@ -158,7 +158,8 @@ body.bw {
 .lottery-history dd {
     color:brown;
     float:right;
-    /* margin: 10px 100px ; */
+    clear:right;
+    margin: 10px 100px;
     /* верх-низ, право-лево */
 }
 
