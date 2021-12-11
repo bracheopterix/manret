@@ -63,8 +63,6 @@ h1 {
     align-content: center;
 }
 
-
-
 .container {
     width: 800px;
     padding: 50px;
@@ -85,7 +83,6 @@ h2 {
 }
 
 
-
 /* Buttons */
 
 button {
@@ -103,6 +100,7 @@ button {
     background-color: #661515;
 }
 
+
 /* theme color */
 
 body.color {
@@ -113,8 +111,6 @@ body.color {
 .color-themes-switch.color {
     position: absolute;
 }
-
-
 
 button:hover {
     background-color: tomato;
@@ -141,6 +137,7 @@ body.bw {
     font-size: 50px;
 }
 
+
 /* lottery */
 
 .lottery-history {
@@ -148,20 +145,28 @@ body.bw {
 }
 
 .lottery-history dt {
-    float:left;
-    clear:left;
-    margin: 10px 100px;
+    float: left;
+    clear: left;
+    padding: 10px 100px;
     /*верх, право, низ, лево */
-    
+}
+
+.lottery-history dt:nth-child(4n+3) {
+    background: burlywood;
+}
+
+.lottery-history dd:nth-child(4n+4) {
+    background: burlywood;
 }
 
 .lottery-history dd {
-    color:brown;
-    float:right;
-    clear:right;
-    margin: 10px 100px;
+    color: brown;
+    float: right;
+    clear: right;
+    padding: 10px 100px;
     /* верх-низ, право-лево */
 }
+
 
 /* Colors */
 
@@ -176,4 +181,3 @@ body.bw {
     color: #ffd6a2;
     color: #a1855b;
 }
-
